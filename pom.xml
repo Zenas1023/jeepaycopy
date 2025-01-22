@@ -13,8 +13,8 @@
     <artifactId>jeepaycopy</artifactId>  <!-- 项目名称  -->
     <packaging>pom</packaging> <!-- 项目的最终打包类型/发布形式, 可选[jar, war, pom, maven-plugin]等 -->
 
-    <version>0.0.1-SNAPSHOT</version>
     <name>jeepaycopy</name>
+    <version>Final</version>
     <description>jeepaycopy</description>
 
     <url/>
@@ -33,6 +33,9 @@
         <tag/>
         <url/>
     </scm>
+    <modules>
+        <module>jeepay-core</module>
+    </modules>
 
     <properties>
         <isys.version>3.0.0</isys.version> <!-- 指定当前[项目]版本号 -->
