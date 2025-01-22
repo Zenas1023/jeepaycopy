@@ -35,6 +35,7 @@
     </scm>
     <modules>
         <module>jeepay-core</module>
+        <module>jeepay-service</module>
     </modules>
 
     <properties>
