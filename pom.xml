@@ -34,8 +34,12 @@
         <url/>
     </scm>
     <modules>
-        <module>jeepay-core</module>
-        <module>jeepay-service</module>
+        <module>jeepay-z-codegen</module>    <!-- 代码生成器 -->
+        <module>jeepay-core</module>  <!-- 基础函数, 包含工具类等 -->
+        <module>jeepay-service</module>  <!-- db service等 -->
+        <module>jeepay-components</module> <!-- 组件包 -->
+
+
     </modules>
 
     <properties>
