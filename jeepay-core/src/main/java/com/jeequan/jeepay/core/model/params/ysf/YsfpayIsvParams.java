@@ -25,9 +25,6 @@ import org.apache.commons.lang3.StringUtils;
 /*
  * 云闪付 配置信息
  *
- * @author pangxiaoyu
- * @site https://www.jeequan.com
- * @date 2021/6/8 18:02
  */
 @Data
 public class YsfpayIsvParams extends IsvParams {

@@ -39,9 +39,6 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 退款订单类
  *
- * @author pangxiaoyu
- * @site https://www.jeequan.com
- * @date 2021-06-07 07:15
  */
 @Tag(name = "订单管理（退款类）")
 @RestController
@@ -51,8 +48,6 @@ public class RefundOrderController extends CommonCtrl {
     @Autowired private RefundOrderService refundOrderService;
 
     /**
-     * @author: pangxiaoyu
-     * @date: 2021/6/7 16:15
      * @describe: 退款订单信息列表
      */
     @Operation(summary = "退款订单信息列表")
@@ -82,8 +77,6 @@ public class RefundOrderController extends CommonCtrl {
     }
 
     /**
-     * @author: pangxiaoyu
-     * @date: 2021/6/7 16:15
      * @describe: 退款订单信息
      */
     @Operation(summary = "退款订单信息详情")

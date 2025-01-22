@@ -19,8 +19,6 @@ import java.util.List;
  * 分账记录表 服务实现类
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2021-08-19
  */
 @Service
 public class PayOrderDivisionRecordService extends ServiceImpl<PayOrderDivisionRecordMapper, PayOrderDivisionRecord> {

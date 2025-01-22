@@ -33,9 +33,6 @@ import jakarta.validation.constraints.NotNull;
 * 创建订单请求参数对象
 * 聚合支付接口（统一下单）
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 17:33
 */
 @Data
 public class UnifiedOrderRQ extends AbstractMchAppRQ {

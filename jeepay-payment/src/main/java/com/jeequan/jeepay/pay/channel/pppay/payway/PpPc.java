@@ -26,9 +26,7 @@ import java.util.List;
 /**
  * none.
  *
- * @author 陈泉
  * @package com.jeequan.jeepay.pay.channel.pppay.payway
- * @create 2021/11/15 18:59
  */
 @Slf4j
 @Service("pppayPaymentByPPPCService")

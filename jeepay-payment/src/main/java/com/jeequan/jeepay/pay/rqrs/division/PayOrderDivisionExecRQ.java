@@ -22,10 +22,6 @@ import jakarta.validation.constraints.NotNull;
 
 /*
 * 发起订单分账 请求参数
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/8/26 17:21
 */
 @Data
 public class PayOrderDivisionExecRQ extends AbstractMchAppRQ {

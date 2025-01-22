@@ -35,10 +35,6 @@ import java.util.List;
 
 /*
 * 分账结果回调接口抽象类
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2023/3/29 15:39
 */
 public abstract class AbstractDivisionRecordChannelNotifyService {
 

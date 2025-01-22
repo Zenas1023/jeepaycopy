@@ -33,10 +33,6 @@ import org.springframework.stereotype.Service;
 
 /*
  * 计全付 微信 H5 支付
- *
- * @author yr
- * @site https://www.jeequan.com
- * @date 2022/8/17 15:37
  */
 @Service("plspayPaymentByWxH5Service") //Service Name需保持全局唯一性
 public class WxH5 extends PlspayPaymentService {

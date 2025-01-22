@@ -37,9 +37,6 @@ import java.util.Set;
 * 2. 动态注册fanout交换机
 * 3. 将Queue模式绑定到延时消息的交换机
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/7/23 16:33
 */
 @Component
 @ConditionalOnProperty(name = MQVenderCS.YML_VENDER_KEY, havingValue = MQVenderCS.RABBIT_MQ)

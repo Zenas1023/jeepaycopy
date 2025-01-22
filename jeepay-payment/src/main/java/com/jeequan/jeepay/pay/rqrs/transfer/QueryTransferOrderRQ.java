@@ -21,9 +21,6 @@ import lombok.Data;
 /*
 * 查询转账单请求参数对象
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/17 14:07
 */
 @Data
 public class QueryTransferOrderRQ extends AbstractMchAppRQ {

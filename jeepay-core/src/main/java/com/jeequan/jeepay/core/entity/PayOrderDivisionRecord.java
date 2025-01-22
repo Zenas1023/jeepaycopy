@@ -18,8 +18,6 @@ import java.util.Date;
  * 分账记录表
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2021-08-19
  */
 @Schema(description = "分账记录表")
 @Data

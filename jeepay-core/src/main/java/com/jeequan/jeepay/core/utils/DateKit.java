@@ -26,9 +26,6 @@ import java.util.Date;
 /*
 * 时间工具类
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 16:58
 */
 public class DateKit {
 

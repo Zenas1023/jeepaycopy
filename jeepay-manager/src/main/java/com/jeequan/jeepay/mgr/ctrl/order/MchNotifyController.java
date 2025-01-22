@@ -43,9 +43,6 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 商户通知类
  *
- * @author pangxiaoyu
- * @site https://www.jeequan.com
- * @date 2021-06-07 07:15
  */
 @Tag(name = "订单管理（通知类）")
 @RestController
@@ -56,8 +53,6 @@ public class MchNotifyController extends CommonCtrl {
     @Autowired private IMQSender mqSender;
 
     /**
-     * @author: pangxiaoyu
-     * @date: 2021/6/7 16:14
      * @describe: 商户通知列表
      */
     @Operation(summary = "查询商户通知列表")
@@ -119,8 +114,6 @@ public class MchNotifyController extends CommonCtrl {
     }
 
     /**
-     * @author: pangxiaoyu
-     * @date: 2021/6/7 16:14
      * @describe: 商户通知信息
      */
     @Operation(summary = "通知信息详情")
@@ -140,8 +133,6 @@ public class MchNotifyController extends CommonCtrl {
 
    /*
     * 功能描述: 商户通知重发操作
-    * @Author: terrfly
-    * @Date: 2021/6/21 17:41
     */
     @Operation(summary = "商户通知重发")
     @Parameters({

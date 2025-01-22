@@ -33,9 +33,6 @@ import java.util.List;
  *      3. 使用buildTreeString() 或者 buildTreeObject() 生成所需对象；
  *
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2019/12/8 06:37
 */
 public class TreeDataBuilder {
 

@@ -22,9 +22,6 @@ import org.springframework.security.authentication.InternalAuthenticationService
 /*
  * Spring Security 框架自定义异常类
  *
- * @author terrfly
- * @site https://www.jeequan.com
- * @date 2021/6/15 11:23
  */
 @Getter
 @Setter

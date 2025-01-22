@@ -21,9 +21,6 @@ import org.springframework.web.multipart.MultipartFile;
 /**
  * OSSService 接口
  *
- * @author terrfly
- * @site https://www.jeequan.com
- * @date 2021/7/12 18:18
  */
 public interface IOssService {
 

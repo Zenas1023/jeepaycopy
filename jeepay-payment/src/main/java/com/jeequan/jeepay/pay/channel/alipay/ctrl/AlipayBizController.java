@@ -49,10 +49,6 @@ import java.math.BigDecimal;
 
 /**
 * 渠道侧自定义业务ctrl
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/7/15 11:49
 */
 @Slf4j
 @Controller

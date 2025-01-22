@@ -29,8 +29,6 @@ import java.io.Serializable;
  * 操作员<->角色 关联表
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2021-04-23
  */
 @Schema(description = "操作员<->角色 关联表")
 @Data

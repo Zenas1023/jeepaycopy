@@ -36,10 +36,6 @@ import java.util.Map;
 
 /*
 * 支付宝 转账回调接口实现类
-*
-* @author zx
-* @site https://www.jeequan.com
-* @date 2021/21/01 17:16
 */
 @Service
 @Slf4j

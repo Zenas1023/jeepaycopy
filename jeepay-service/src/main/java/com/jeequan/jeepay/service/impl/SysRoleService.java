@@ -33,8 +33,6 @@ import java.util.List;
  * 系统角色表 服务实现类
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2020-06-13
  */
 @Service
 public class SysRoleService extends ServiceImpl<SysRoleMapper, SysRole> {

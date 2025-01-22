@@ -47,10 +47,6 @@ import java.util.Set;
 
 /**
 * 发起分账请求
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/8/27 8:01
 */
 @Slf4j
 @RestController

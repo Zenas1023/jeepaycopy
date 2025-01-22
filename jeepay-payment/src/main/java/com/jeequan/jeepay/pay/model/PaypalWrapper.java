@@ -25,10 +25,7 @@ import java.util.List;
 
 /**
  * none.
- *
- * @author 陈泉
  * @package com.jeequan.jeepay.pay.model
- * @create 2021/11/15 19:10
  */
 @Slf4j
 @Data

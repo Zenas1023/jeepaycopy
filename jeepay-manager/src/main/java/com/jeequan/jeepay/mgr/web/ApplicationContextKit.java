@@ -27,9 +27,6 @@ import jakarta.servlet.http.HttpServletRequest;
 /*
 * 读取servletContext 上下文工具类
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 17:13
 */
 @Service
 public class ApplicationContextKit implements ServletContextAware,InitializingBean{

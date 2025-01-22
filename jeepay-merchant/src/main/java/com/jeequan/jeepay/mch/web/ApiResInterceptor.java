@@ -24,11 +24,6 @@ import jakarta.servlet.http.HttpServletResponse;
 
 /**
  * 数据响应拦截器
- *
- * @author terrfly
- * @modify zhuxiao
- * @site https://www.jeequan.com
- * @date 2021-04-27 15:50
  */
 @Component
 public class ApiResInterceptor implements HandlerInterceptor {

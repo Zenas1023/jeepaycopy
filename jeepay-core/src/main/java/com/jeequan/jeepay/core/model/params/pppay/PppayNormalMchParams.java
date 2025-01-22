@@ -10,9 +10,6 @@ import org.apache.commons.lang3.StringUtils;
 /**
  * none.
  *
- * @author 陈泉
- * @package com.jeequan.jeepay.core.model.params.pppay
- * @create 2021/11/15 18:10
  */
 @Data
 public class PppayNormalMchParams extends NormalMchParams {

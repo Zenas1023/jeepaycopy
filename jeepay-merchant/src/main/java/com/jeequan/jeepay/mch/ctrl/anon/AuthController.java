@@ -39,10 +39,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 登录鉴权
- *
- * @author terrfly
- * @site https://www.jeequan.com
- * @date 2021-04-27 15:50
  */
 @Tag(name = "认证模块")
 @RestController

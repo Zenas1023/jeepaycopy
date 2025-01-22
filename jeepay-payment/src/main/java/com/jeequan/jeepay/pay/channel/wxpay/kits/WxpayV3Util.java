@@ -32,11 +32,6 @@ import java.io.FileInputStream;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @Author: ZhuXiao
- * @Description:
- * @Date: 15:22 2021/5/26
-*/
 @Slf4j
 public class WxpayV3Util {
 
@@ -95,8 +90,6 @@ public class WxpayV3Util {
      * @param tradeType
      * @param wxCallBack
      * @Return: java.lang.String
-     * @Author: terrfly
-     * @Date: 2022/4/25 12:38
      */
     public static String commonReqWx(WxpayV3OrderRequestModel model, WxPayService wxPayService, boolean isIsvsubMch, String tradeType, WxCallBack wxCallBack) throws WxPayException {
 

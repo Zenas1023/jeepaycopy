@@ -47,9 +47,6 @@ import java.util.Map;
 /**
  * 系统配置信息类
  *
- * @author pangxiaoyu
- * @site https://www.jeequan.com
- * @date 2021-06-07 07:15
  */
 @Tag(name = "系统管理（配置信息类）")
 @Slf4j
@@ -62,8 +59,6 @@ public class SysConfigController extends CommonCtrl {
 
 
 	/**
-	 * @author: pangxiaoyu
-	 * @date: 2021/6/7 16:19
 	 * @describe: 分组下的配置
 	 */
 	@Operation(summary = "系统配置--查询分组下的配置",description = "")
@@ -85,8 +80,6 @@ public class SysConfigController extends CommonCtrl {
 	}
 
 	/**
-	 * @author: pangxiaoyu
-	 * @date: 2021/6/7 16:19
 	 * @describe: 系统配置修改
 	 */
 	@Operation(summary = "系统配置--修改分组下的配置",description = "")

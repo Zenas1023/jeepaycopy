@@ -35,10 +35,6 @@ import java.util.TreeMap;
 
 /*
  * 小新支付 支付宝条码支付
- *
- * @author jmdhappy
- * @site https://www.jeequan.com
- * @date 2021/9/20 10:09
  */
 @Service("xxpayPaymentByAliBarService") //Service Name需保持全局唯一性
 @Slf4j

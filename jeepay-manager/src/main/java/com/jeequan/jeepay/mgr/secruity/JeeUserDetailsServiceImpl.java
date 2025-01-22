@@ -31,10 +31,6 @@ import org.springframework.stereotype.Service;
 
 /*
 * 实现UserDetailsService 接口
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 17:13
 */
 @Service
 public class JeeUserDetailsServiceImpl implements UserDetailsService {

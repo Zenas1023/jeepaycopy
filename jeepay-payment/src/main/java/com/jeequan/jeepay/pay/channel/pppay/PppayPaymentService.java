@@ -14,9 +14,7 @@ import org.springframework.stereotype.Service;
 /**
  * none.
  *
- * @author 陈泉
  * @package com.jeequan.jeepay.pay.channel.pppay
- * @create 2021/11/15 18:17
  */
 @Service
 public class PppayPaymentService extends AbstractPaymentService {

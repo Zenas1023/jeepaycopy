@@ -30,10 +30,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 /***
 * 订单处理通用逻辑
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/8/22 16:50
 */
 @Service
 @Slf4j

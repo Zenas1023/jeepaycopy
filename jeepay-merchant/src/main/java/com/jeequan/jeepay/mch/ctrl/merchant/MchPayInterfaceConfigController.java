@@ -52,10 +52,6 @@ import java.util.Set;
 
 /**
  * 商户支付接口配置类
- *
- * @author zhuxiao
- * @site https://www.jeequan.com
- * @date 2021-04-27 15:50
  */
 @Tag(name = "商户支付接口管理")
 @RestController
@@ -69,9 +65,7 @@ public class MchPayInterfaceConfigController extends CommonCtrl {
     @Autowired private IMQSender mqSender;
 
     /**
-     * @Author: ZhuXiao
      * @Description: 查询商户支付接口配置列表
-     * @Date: 10:51 2021/5/13
     */
     @Operation(summary = "查询应用支付接口配置列表")
     @Parameters({
@@ -93,9 +87,7 @@ public class MchPayInterfaceConfigController extends CommonCtrl {
     }
 
     /**
-     * @Author: ZhuXiao
      * @Description: 根据 商户号、接口类型 获取商户参数配置
-     * @Date: 10:54 2021/5/13
     */
     @Operation(summary = "根据应用ID、接口类型 获取应用参数配置")
     @Parameters({
@@ -130,9 +122,7 @@ public class MchPayInterfaceConfigController extends CommonCtrl {
     }
 
     /**
-     * @Author: ZhuXiao
      * @Description: 更新商户支付参数
-     * @Date: 10:56 2021/5/13
     */
     @Operation(summary = "更新应用支付参数")
     @Parameters({

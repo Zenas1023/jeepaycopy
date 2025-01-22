@@ -31,10 +31,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
 * 商户转账单查询controller
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/8/13 15:20
 */
 @Slf4j
 @RestController

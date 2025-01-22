@@ -26,9 +26,6 @@ import java.io.Serializable;
 /*
  * 系统应用配置项定义Bean
  *
- * @author terrfly
- * @site https://www.jeequan.com
- * @date 2021/6/8 16:35
  */
 @Data
 public class DBApplicationConfig implements Serializable {

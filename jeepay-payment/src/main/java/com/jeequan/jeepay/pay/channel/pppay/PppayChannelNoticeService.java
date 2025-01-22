@@ -18,9 +18,7 @@ import java.io.IOException;
 /**
  * none.
  *
- * @author 陈泉
  * @package com.jeequan.jeepay.pay.channel.pppay
- * @create 2021/11/15 20:58
  */
 @Service
 @Slf4j

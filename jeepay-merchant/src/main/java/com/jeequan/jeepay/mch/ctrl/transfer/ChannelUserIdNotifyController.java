@@ -27,10 +27,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
 * 获取用户ID - 回调函数
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/8/13 17:54
 */
 @Tag(name = "商户转账回调函数")
 @Controller

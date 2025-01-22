@@ -33,8 +33,6 @@ import java.util.Set;
  * 系统配置表 服务实现类
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2020-07-29
  */
 @Service
 public class SysConfigService extends ServiceImpl<SysConfigMapper, SysConfig> implements ISysConfigService {

@@ -21,10 +21,6 @@ import lombok.Getter;
 /*
 * 请求渠道侧异常 exception
 * 抛出此异常： 仅支持：  未知状态（需查单） 和 系统内异常
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 17:28
 */
 @Getter
 public class ChannelException extends RuntimeException{

@@ -20,8 +20,6 @@ import com.jeequan.jeepay.pay.model.MchAppConfigContext;
 
 /*
 * @Description: 301方式获取渠道侧用户ID， 如微信openId 支付宝的userId等
-* @author terrfly
-* @date 2021/5/2 15:10
 */
 public interface IChannelUserService {
 

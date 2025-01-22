@@ -37,10 +37,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 支付方式配置类
- *
- * @author zhuxiao
- * @site https://www.jeequan.com
- * @date 2021-04-27 15:50
  */
 @Tag(name = "支付方式配置")
 @RestController
@@ -52,9 +48,7 @@ public class PayWayController extends CommonCtrl {
 	@Autowired PayOrderService payOrderService;
 
 	/**
-	 * @Author: ZhuXiao
 	 * @Description: list
-	 * @Date: 15:52 2021/4/27
 	*/
 	@Operation(summary = "支付方式--列表")
 	@Parameters({

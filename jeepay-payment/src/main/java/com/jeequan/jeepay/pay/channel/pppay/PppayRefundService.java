@@ -21,9 +21,7 @@ import org.springframework.stereotype.Service;
 /**
  * none.
  *
- * @author 陈泉
  * @package com.jeequan.jeepay.pay.channel.pppay
- * @create 2021/11/16 20:20
  */
 @Service
 public class PppayRefundService extends AbstractRefundService {

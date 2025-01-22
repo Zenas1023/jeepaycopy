@@ -29,8 +29,6 @@ import java.io.Serializable;
  * 系统角色权限关联表
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2021-04-23
  */
 @Schema(description = "系统角色权限关联表")
 @Data

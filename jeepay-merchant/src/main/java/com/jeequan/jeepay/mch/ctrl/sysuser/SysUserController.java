@@ -46,11 +46,6 @@ import java.util.Arrays;
 
 /**
  * 用户管理类
- *
- * @author terrfly
- * @modify zhuxiao
- * @site https://www.jeequan.com
- * @date 2021-04-27 15:50
  */
 @Tag(name = "系统管理（操作员）")
 @RestController

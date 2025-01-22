@@ -49,10 +49,6 @@ import java.util.List;
 
 /**
 * 转账api
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/8/13 14:43
 */
 @Tag(name = "商户转账")
 @RestController

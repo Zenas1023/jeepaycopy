@@ -33,10 +33,6 @@ import org.apache.commons.lang3.StringUtils;
 
 /*
 * wxService 包装类
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 17:30
 */
 @Data
 @AllArgsConstructor

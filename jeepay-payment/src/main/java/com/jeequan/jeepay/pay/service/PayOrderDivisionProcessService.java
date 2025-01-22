@@ -44,9 +44,6 @@ import java.util.List;
 
 /**
  * 业务： 支付订单分账处理逻辑
- * @author terrfly
- * @site https://www.jeequan.com
- * @date 2021/8/27 9:43
  */
 @Slf4j
 @Component
@@ -67,10 +64,6 @@ public class PayOrderDivisionProcessService {
     * 处理分账，
      * 1. 向外抛异常： 系统检查没有通过 / 系统级别异常
      * 2 若正常调起接口将返回渠道侧响应结果
-    *
-    * @author terrfly
-    * @site https://www.jeequan.com
-    * @date 2021/8/27 9:44
     */
     public ChannelRetMsg processPayOrderDivision(String payOrderId, Byte useSysAutoDivisionReceivers, List<PayOrderDivisionMQ.CustomerDivisionReceiver> receiverList, Boolean isResend) {
 

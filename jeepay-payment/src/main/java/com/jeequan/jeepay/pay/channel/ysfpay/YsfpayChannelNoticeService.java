@@ -35,10 +35,6 @@ import jakarta.servlet.http.HttpServletRequest;
 
 /**
  * 云闪付回调
- *
- * @author pangxiaoyu
- * @site https://www.jeequan.com
- * @date 2021-06-07 07:15
  */
 @Service
 @Slf4j

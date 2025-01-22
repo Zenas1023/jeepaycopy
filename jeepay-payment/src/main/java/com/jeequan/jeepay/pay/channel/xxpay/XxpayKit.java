@@ -12,10 +12,6 @@ import java.util.Map;
 
 /*
  * 小新支付 工具类
- *
- * @author jmdhappy
- * @site https://www.jeequan.com
- * @date 2021/9/20 10:09
  */
 @Slf4j
 public class XxpayKit {

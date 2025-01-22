@@ -37,10 +37,6 @@ import org.springframework.stereotype.Service;
 
 /*
 * 支付宝 wap支付
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 17:21
 */
 @Service("alipayPaymentByAliWapService") //Service Name需保持全局唯一性
 public class AliWap extends AlipayPaymentService {

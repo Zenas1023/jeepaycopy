@@ -23,10 +23,6 @@ import jakarta.validation.constraints.NotBlank;
 
 /*
  * 支付方式： WX_LITE
- *
- * @author zhuxiao
- * @site https://www.jeequan.com
- * @date 2021/6/8 17:34
  */
 @Data
 public class WxLiteOrderRQ extends UnifiedOrderRQ {

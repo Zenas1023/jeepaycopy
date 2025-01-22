@@ -27,9 +27,6 @@ import lombok.NoArgsConstructor;
 * 定义MQ消息格式
 * 业务场景： [ 更新系统配置参数 ]
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/7/22 15:25
 */
 @Data
 @NoArgsConstructor

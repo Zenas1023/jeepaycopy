@@ -38,8 +38,6 @@ import java.util.List;
  * 商户信息表 服务实现类
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2021-04-27
  */
 @Service
 public class MchInfoService extends ServiceImpl<MchInfoMapper, MchInfo> {

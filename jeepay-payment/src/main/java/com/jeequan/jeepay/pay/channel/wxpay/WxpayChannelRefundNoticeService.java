@@ -52,10 +52,6 @@ import java.security.PrivateKey;
 
 /*
  * 微信支付 退款回调接口实现类
- *
- * @author xiaoyu
- * @site https://www.jeequan.com
- * @date 2022/1/24 9:59
  */
 @Service
 @Slf4j

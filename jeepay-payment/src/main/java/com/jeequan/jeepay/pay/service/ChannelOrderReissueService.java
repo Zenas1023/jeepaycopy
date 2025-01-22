@@ -29,10 +29,6 @@ import org.springframework.stereotype.Service;
 
 /*
 * 查询上游订单， &  补单服务实现类
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 17:40
 */
 
 @Service

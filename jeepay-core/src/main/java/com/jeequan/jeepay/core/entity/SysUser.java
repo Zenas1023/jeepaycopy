@@ -32,8 +32,6 @@ import java.util.Date;
  * 系统用户表
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2021-04-23
  */
 @Schema(description = "系统用户表")
 @Data

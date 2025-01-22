@@ -17,8 +17,6 @@ import java.util.Date;
  * 分账账号组
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2021-08-23
  */
 @Schema(description = "分账账号组")
 @Data

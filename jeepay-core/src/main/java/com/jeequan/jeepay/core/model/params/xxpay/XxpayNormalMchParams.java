@@ -25,9 +25,6 @@ import org.apache.commons.lang3.StringUtils;
 /*
  * 小新支付 普通商户参数定义
  *
- * @author jmdhappy
- * @site https://www.jeequan.com
- * @date 2021/9/10 21:51
  */
 @Data
 public class XxpayNormalMchParams extends NormalMchParams {

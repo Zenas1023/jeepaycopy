@@ -22,9 +22,6 @@ import org.springframework.stereotype.Component;
 /**
 * aliyun oss 的yml配置参数
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/7/12 18:18
 */
 @Data
 @Component

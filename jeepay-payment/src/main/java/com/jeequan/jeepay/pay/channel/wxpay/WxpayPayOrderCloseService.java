@@ -35,10 +35,6 @@ import org.springframework.stereotype.Service;
 
 /**
  * 微信关闭订单
- *
- * @author xiaoyu
- * @site https://www.jeequan.com
- * @date 2022/1/24 17:25
  */
 @Service
 public class WxpayPayOrderCloseService implements IPayOrderCloseService {

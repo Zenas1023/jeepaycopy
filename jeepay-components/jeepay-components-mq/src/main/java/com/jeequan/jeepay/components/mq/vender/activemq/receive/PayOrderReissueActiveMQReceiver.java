@@ -30,9 +30,6 @@ import org.springframework.stereotype.Component;
  * activeMQ 消息接收器：仅在vender=activeMQ时 && 项目实现IMQReceiver接口时 进行实例化
  * 业务：  支付订单补单（一般用于没有回调的接口，比如微信的条码支付）
  *
- * @author terrfly
- * @site https://www.jeequan.com
- * @date 2021/7/22 17:06
  */
 @Component
 @ConditionalOnProperty(name = MQVenderCS.YML_VENDER_KEY, havingValue = MQVenderCS.ACTIVE_MQ)

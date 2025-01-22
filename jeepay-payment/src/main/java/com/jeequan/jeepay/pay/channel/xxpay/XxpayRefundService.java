@@ -35,10 +35,6 @@ import java.util.TreeMap;
 
 /*
 * 退款接口： 小新支付
-*
-* @author jmdhappy
-* @site https://www.jeequan.com
-* @date 2021/9/26 9:38
 */
 @Service
 @Slf4j

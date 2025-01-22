@@ -33,8 +33,6 @@ import java.util.List;
  * 操作员认证表 服务实现类
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2020-06-13
  */
 @Service
 public class SysUserAuthService extends ServiceImpl<SysUserAuthMapper, SysUserAuth> {

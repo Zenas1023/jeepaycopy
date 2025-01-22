@@ -40,9 +40,6 @@ import java.util.List;
 /*
 * 权限 菜单 管理
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 17:13
 */
 @Tag(name = "系统管理（用户权限）")
 @RestController

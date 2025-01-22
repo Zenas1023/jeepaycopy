@@ -23,10 +23,6 @@ import java.util.Map;
 /***
 * 封装响应结果的数据
  * 直接写：  MutablePair<ResponseEntity, Map<Long, ChannelRetMsg>>  太过复杂！
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2023/3/29 15:50
 */
 @Data
 public class DivisionChannelNotifyModel {

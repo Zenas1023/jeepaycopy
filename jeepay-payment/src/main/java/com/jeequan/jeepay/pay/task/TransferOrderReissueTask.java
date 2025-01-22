@@ -32,9 +32,6 @@ import java.util.Date;
 /*
 * 转账补单定时任务
 *
-* @author zx
-* @site https://www.jeequan.com
-* @date 2022/12/29 17:47
 */
 @Slf4j
 @Component

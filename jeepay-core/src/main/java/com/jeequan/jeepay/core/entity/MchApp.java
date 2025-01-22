@@ -17,8 +17,6 @@ import java.util.Date;
  * 商户应用表
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2021-06-15
  */
 @Schema(description = "商户应用表")
 @Data

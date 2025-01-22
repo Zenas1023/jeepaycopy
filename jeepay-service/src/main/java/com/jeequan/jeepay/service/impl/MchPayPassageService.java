@@ -38,8 +38,6 @@ import java.util.Map;
  * 商户支付通道表 服务实现类
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2021-04-27
  */
 @Service
 public class MchPayPassageService extends ServiceImpl<MchPayPassageMapper, MchPayPassage> {
@@ -47,9 +45,7 @@ public class MchPayPassageService extends ServiceImpl<MchPayPassageMapper, MchPa
     @Autowired private PayInterfaceDefineService payInterfaceDefineService;
 
     /**
-     * @Author: ZhuXiao
      * @Description: 根据支付方式查询可用的支付接口列表
-     * @Date: 9:56 2021/5/10
     */
     public List<JSONObject> selectAvailablePayInterfaceList(String wayCode, String appId, Byte infoType, Byte mchType) {
         Map params = new HashMap();

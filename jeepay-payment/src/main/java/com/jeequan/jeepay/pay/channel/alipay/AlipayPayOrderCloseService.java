@@ -29,10 +29,6 @@ import org.springframework.stereotype.Service;
 
 /**
  * 支付宝 关闭订单接口实现类
- *
- * @author xiaoyu
- * @site https://www.jeequan.com
- * @date 2022/1/25 11:17
  */
 @Service
 public class AlipayPayOrderCloseService implements IPayOrderCloseService {

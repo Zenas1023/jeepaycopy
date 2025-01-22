@@ -43,8 +43,6 @@ import jakarta.validation.ValidatorFactory;
 import java.util.Arrays;
 
 /**
- * @Author terrfly
- * @Date 2019/11/7 15:19
  * @Description  spring-boot 主启动程序
  **/
 @SpringBootApplication

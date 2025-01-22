@@ -43,10 +43,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 /*
  * 聚合码支付二维码收银台controller
- *
- * @author terrfly
- * @site https://www.jeequan.com
- * @date 2021/6/8 17:27
  */
 @RestController
 @RequestMapping("/api/cashier")

@@ -22,9 +22,6 @@ import io.jsonwebtoken.SignatureAlgorithm;
 /*
 * JWT工具包
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 16:32
 */
 public class JWTUtils {
 

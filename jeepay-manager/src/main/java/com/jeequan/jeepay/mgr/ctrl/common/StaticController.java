@@ -33,9 +33,6 @@ import java.io.InputStream;
 /*
 * 静态文件下载/预览 ctrl
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 17:08
 */
 @Controller
 public class StaticController extends CommonCtrl {

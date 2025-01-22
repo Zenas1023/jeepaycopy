@@ -40,9 +40,6 @@ import java.util.List;
 /*
 * 分账补单定时任务
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2023/3/29 11:35
 */
 @Slf4j
 @Component

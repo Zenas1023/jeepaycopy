@@ -29,9 +29,6 @@ import jakarta.jms.TextMessage;
 /**
 *  activeMQ 消息发送器的实现
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/7/23 16:52
 */
 @Component
 @ConditionalOnProperty(name = MQVenderCS.YML_VENDER_KEY, havingValue = MQVenderCS.ACTIVE_MQ)

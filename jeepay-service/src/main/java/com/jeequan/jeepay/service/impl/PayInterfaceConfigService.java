@@ -34,8 +34,6 @@ import java.util.Map;
  * 支付接口配置参数表 服务实现类
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2021-04-27
  */
 @Service
 public class PayInterfaceConfigService extends ServiceImpl<PayInterfaceConfigMapper, PayInterfaceConfig> {
@@ -50,9 +48,7 @@ public class PayInterfaceConfigService extends ServiceImpl<PayInterfaceConfigMap
     private MchAppService mchAppService;
 
     /**
-     * @Author: ZhuXiao
      * @Description: 根据 账户类型、账户号、接口类型 获取支付参数配置
-     * @Date: 17:20 2021/4/27
     */
     public PayInterfaceConfig getByInfoIdAndIfCode(Byte infoType, String infoId, String ifCode) {
         return getOne(PayInterfaceConfig.gw()
@@ -63,9 +59,7 @@ public class PayInterfaceConfigService extends ServiceImpl<PayInterfaceConfigMap
     }
 
     /**
-     * @Author: ZhuXiao
      * @Description: 根据 账户类型、账户号 获取支付参数配置列表
-     * @Date: 14:19 2021/5/7
     */
     public List<PayInterfaceDefine> selectAllPayIfConfigListByIsvNo(Byte infoType, String infoId) {
 

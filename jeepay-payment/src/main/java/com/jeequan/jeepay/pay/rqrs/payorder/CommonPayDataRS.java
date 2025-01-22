@@ -23,9 +23,6 @@ import org.apache.commons.lang3.StringUtils;
 * 通用支付数据RS
 * 根据set的值，响应不同的payDataType
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 17:32
 */
 @Data
 public class CommonPayDataRS extends UnifiedOrderRS {

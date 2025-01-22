@@ -21,9 +21,6 @@ import lombok.Data;
 /*
  * 支付宝 特约商户参数定义
  *
- * @author terrfly
- * @site https://www.jeequan.com
- * @date 2021/6/8 16:33
  */
 @Data
 public class AlipayIsvsubMchParams  extends IsvsubMchParams {

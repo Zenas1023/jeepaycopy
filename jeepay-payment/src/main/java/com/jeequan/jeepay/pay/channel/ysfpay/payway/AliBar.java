@@ -31,10 +31,6 @@ import org.springframework.stereotype.Service;
 
 /*
 * 云闪付 支付宝 条码支付
-*
-* @author pangxiaoyu
-* @site https://www.jeequan.com
-* @date 2021/6/8 18:11
 */
 @Service("ysfPaymentByAliBarService") //Service Name需保持全局唯一性
 public class AliBar extends YsfpayPaymentService {

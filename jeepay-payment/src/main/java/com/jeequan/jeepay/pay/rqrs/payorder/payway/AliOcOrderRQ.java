@@ -21,10 +21,6 @@ import lombok.Data;
 
 /**
  * 支付方式 订单码
- *
- * @author zhangheming
- * @site https://www.jeequan.com
- * @date 2024/6/12 17:20
  */
 @Data
 public class AliOcOrderRQ extends CommonPayDataRQ {

@@ -24,10 +24,6 @@ import java.math.BigDecimal;
 
 /*
 * 绑定账户 响应参数
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 17:34
 */
 @Data
 public class DivisionReceiverBindRS extends AbstractRS {

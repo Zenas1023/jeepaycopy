@@ -37,10 +37,6 @@ import org.springframework.stereotype.Service;
 /*
 * 支付接口： 微信官方
 * 支付方式： 自适应
-*
-* @author zhuxiao
-* @site https://www.jeequan.com
-* @date 2021/6/8 18:10
 */
 @Service
 public class WxpayPaymentService extends AbstractPaymentService {
@@ -117,7 +113,6 @@ public class WxpayPaymentService extends AbstractPaymentService {
 
     /**
      * 构建微信APIV3接口  统一下单请求数据
-     * @author terrfly
      * @param payOrder
      * @return
      */

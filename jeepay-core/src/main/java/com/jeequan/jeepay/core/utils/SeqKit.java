@@ -28,10 +28,6 @@ import java.util.concurrent.atomic.AtomicLong;
 /*
 * 序列号生成 工具类
 *
-* @author terrfly
-* @author jmdhappy
-* @site https://www.jeequan.com
-* @date 2021/6/8 16:56
 */
 public class SeqKit {
 

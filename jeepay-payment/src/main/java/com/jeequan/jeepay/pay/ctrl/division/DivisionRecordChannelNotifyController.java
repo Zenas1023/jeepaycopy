@@ -42,10 +42,6 @@ import java.util.List;
 
 /*
 * 分账渠道侧的通知入口Controller
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2023/3/29 15:35
 */
 @Slf4j
 @Controller

@@ -9,9 +9,7 @@ import jakarta.validation.constraints.NotBlank;
 /**
  * none.
  *
- * @author 陈泉
  * @package com.jeequan.jeepay.pay.rqrs.payorder.payway
- * @create 2021/11/15 17:52
  */
 @Data
 public class PPPcOrderRQ extends CommonPayDataRQ {

@@ -32,10 +32,6 @@ import jakarta.servlet.http.HttpServletRequest;
 
 /*
 * 小新支付 支付回调接口实现类
-*
-* @author jmdhappy
-* @site https://www.jeequan.com
-* @date 2021/9/21 00:16
 */
 @Service
 @Slf4j

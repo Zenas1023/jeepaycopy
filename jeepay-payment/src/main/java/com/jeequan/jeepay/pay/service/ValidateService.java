@@ -25,10 +25,6 @@ import java.util.Set;
 
 /*
 * 通用 Validator
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 17:47
 */
 @Service
 public class ValidateService {

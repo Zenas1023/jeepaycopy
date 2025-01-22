@@ -50,9 +50,6 @@ import java.util.List;
 /**
  * 商户支付接口管理类
  *
- * @author zhuxiao
- * @site https://www.jeequan.com
- * @date 2021-04-27 15:50
  */
 @Tag(name = "商户支付接口管理")
 @RestController
@@ -66,9 +63,7 @@ public class MchPayInterfaceConfigController extends CommonCtrl {
     @Autowired private SysConfigService sysConfigService;
 
     /**
-     * @Author: ZhuXiao
      * @Description: 查询应用支付接口配置列表
-     * @Date: 15:50 2021/4/27
     */
     @Operation(summary = "查询应用支付接口配置列表")
     @Parameters({
@@ -84,9 +79,7 @@ public class MchPayInterfaceConfigController extends CommonCtrl {
     }
 
     /**
-     * @Author: ZhuXiao
      * @Description: 根据 appId、接口类型 获取应用参数配置
-     * @Date: 17:03 2021/4/27
     */
     @Operation(summary = "根据应用ID、接口类型 获取应用参数配置")
     @Parameters({
@@ -122,9 +115,7 @@ public class MchPayInterfaceConfigController extends CommonCtrl {
     }
 
     /**
-     * @Author: ZhuXiao
      * @Description: 应用支付接口配置
-     * @Date: 16:13 2021/4/27
     */
     @Operation(summary = "更新应用支付参数")
     @Parameters({

@@ -28,10 +28,6 @@ import org.springframework.stereotype.Service;
 
 /*
 * 转账补单服务实现类
-*
-* @author zx
-* @site https://www.jeequan.com
-* @date 2022/12/29 17:47
 */
 
 @Service

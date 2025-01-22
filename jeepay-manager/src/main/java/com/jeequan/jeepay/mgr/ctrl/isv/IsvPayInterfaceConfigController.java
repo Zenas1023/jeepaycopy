@@ -43,9 +43,6 @@ import java.util.List;
 /**
  * 服务商支付接口管理类
  *
- * @author zhuxiao
- * @site https://www.jeequan.com
- * @date 2021-04-27 15:50
  */
 
 @Tag(name = "服务商管理（支付接口）")
@@ -57,9 +54,7 @@ public class IsvPayInterfaceConfigController extends CommonCtrl {
     @Autowired private IMQSender mqSender;
 
    /**
-    * @Author: ZhuXiao
     * @Description: 查询服务商支付接口配置列表
-    * @Date: 16:45 2021/4/27
    */
    @Operation(summary = "查询服务商支付接口配置列表", description = "")
    @Parameters({
@@ -75,9 +70,7 @@ public class IsvPayInterfaceConfigController extends CommonCtrl {
     }
 
     /**
-     * @Author: ZhuXiao
      * @Description: 根据 服务商号、接口类型 获取商户参数配置
-     * @Date: 17:03 2021/4/27
      */
     @Operation(summary = "根据[服务商号]、[接口类型]获取商户参数配置", description = "")
     @Parameters({
@@ -105,9 +98,7 @@ public class IsvPayInterfaceConfigController extends CommonCtrl {
 
 
     /**
-     * @Author: ZhuXiao
      * @Description: 服务商支付接口参数配置
-     * @Date: 16:45 2021/4/27
      */
     @Operation(summary = "服务商支付接口参数配置", description = "")
     @Parameters({

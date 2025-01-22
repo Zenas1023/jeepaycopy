@@ -30,10 +30,6 @@ import java.io.File;
 
 /*
 * 实现退款回调接口抽象类
-*
-* @author jmdhappy
-* @site https://www.jeequan.com
-* @date 2021/9/25 23:18
 */
 public abstract class AbstractChannelRefundNoticeService implements IChannelRefundNoticeService {
 

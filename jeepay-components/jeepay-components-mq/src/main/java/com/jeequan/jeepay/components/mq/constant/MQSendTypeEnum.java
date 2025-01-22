@@ -17,9 +17,6 @@ package com.jeequan.jeepay.components.mq.constant;
 
 /**
 * 定义MQ消息类型
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/7/23 16:49
 */
 public enum MQSendTypeEnum {
     /** QUEUE - 点对点 （只有1个消费者可消费。 ActiveMQ的queue模式 ） **/

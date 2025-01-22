@@ -35,10 +35,6 @@ import jakarta.servlet.http.HttpServletRequest;
 
 /*
  * 计全付 回调
- *
- * @author yr
- * @site https://www.jeequan.com
- * @date 2022/7/20 10:31
  */
 @Service
 @Slf4j

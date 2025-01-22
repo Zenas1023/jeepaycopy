@@ -21,9 +21,6 @@ import lombok.Data;
 /*
  * 关闭订单 请求参数对象
  *
- * @author xiaoyu
- * @site https://www.jeequan.com
- * @date 2022/1/25 9:16
  */
 @Data
 public class ClosePayOrderRQ extends AbstractMchAppRQ {

@@ -42,10 +42,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 分账记录
- *
- * @author terrfly
- * @site https://www.jeequan.com
- * @date 2021-08-25 11:50
  */
 @Tag(name = "分账管理（分账记录）")
 @RestController

@@ -35,10 +35,6 @@ import java.util.TreeMap;
 
 /*
  * 小新支付 微信条码支付
- *
- * @author jmdhappy
- * @site https://www.jeequan.com
- * @date 2021/9/22 20:09
  */
 @Service("xxpayPaymentByWxBarService") //Service Name需保持全局唯一性
 @Slf4j

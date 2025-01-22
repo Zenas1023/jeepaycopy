@@ -31,9 +31,6 @@ import java.io.Serializable;
 /*
 * 接口返回对象
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 16:35
 */
 @Schema(description = "响应参数")
 @Data

@@ -26,8 +26,6 @@ import java.util.List;
  * 系统角色权限关联表 Mapper 接口
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2020-06-13
  */
 public interface SysRoleEntRelaMapper extends BaseMapper<SysRoleEntRela> {
 

@@ -38,9 +38,6 @@ import java.util.Map;
 /**
  * 首页统计类
  *
- * @author pangxiaoyu
- * @site https://www.jeequan.com
- * @date 2021-06-07 07:15
  */
 @Tag(name = "主页统计")
 @Slf4j
@@ -51,8 +48,6 @@ public class MainChartController extends CommonCtrl {
     @Autowired private PayOrderService payOrderService;
 
     /**
-     * @author: pangxiaoyu
-     * @date: 2021/6/7 16:18
      * @describe: 周交易总金额
      */
     @Operation(summary = "周交易总金额",description = "")
@@ -66,8 +61,6 @@ public class MainChartController extends CommonCtrl {
     }
 
     /**
-     * @author: pangxiaoyu
-     * @date: 2021/6/7 16:18
      * @describe: 商户总数量、服务商总数量、总交易金额、总交易笔数
      */
     @Operation(summary = "商户总数量、服务商总数量、总交易金额、总交易笔数", description = "")
@@ -83,8 +76,6 @@ public class MainChartController extends CommonCtrl {
     }
 
     /**
-     * @author: pangxiaoyu
-     * @date: 2021/6/7 16:18
      * @describe: 交易统计
      */
     @Operation(summary = "交易统计", description = "")
@@ -106,8 +97,6 @@ public class MainChartController extends CommonCtrl {
     }
 
     /**
-     * @author: pangxiaoyu
-     * @date: 2021/6/7 16:18
      * @describe: 支付方式统计
      */
     @Operation(summary = "支付方式统计", description = "")

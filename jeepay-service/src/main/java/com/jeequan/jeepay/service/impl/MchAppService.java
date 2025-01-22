@@ -22,8 +22,6 @@ import org.springframework.transaction.annotation.Transactional;
  * 商户应用表 服务实现类
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2021-06-15
  */
 @Service
 public class MchAppService extends ServiceImpl<MchAppMapper, MchApp> {

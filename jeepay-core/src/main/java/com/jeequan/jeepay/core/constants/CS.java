@@ -21,8 +21,6 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * @Author terrfly
- * @Date 2019/11/16 15:09
  * @Description Constants 常量对象
  **/
 public class CS {

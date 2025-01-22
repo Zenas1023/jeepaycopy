@@ -32,10 +32,6 @@ import org.springframework.stereotype.Service;
 
 /*
 * 支付宝： 获取用户ID实现类
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 17:21
 */
 @Service
 @Slf4j

@@ -21,9 +21,6 @@ import com.jeequan.jeepay.core.exception.BizException;
 /*
 * 文件工具类
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 16:50
 */
 public class FileKit {
 

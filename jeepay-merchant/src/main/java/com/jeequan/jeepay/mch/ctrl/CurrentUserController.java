@@ -48,11 +48,6 @@ import java.util.List;
 
 /**
  * 当前登录者的信息相关接口
- *
- * @author terrfly
- * @modify zhuxiao
- * @site https://www.jeequan.com
- * @date 2021-04-27 15:50
  */
 @Tag(name = "登录者信息")
 @RestController

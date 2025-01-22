@@ -25,8 +25,6 @@ import com.jeequan.jeepay.service.mapper.SysEntitlementMapper;
  * 系统权限表 服务实现类
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2020-06-13
  */
 @Service
 public class SysEntitlementService extends ServiceImpl<SysEntitlementMapper, SysEntitlement> {

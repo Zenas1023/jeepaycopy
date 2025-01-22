@@ -25,9 +25,6 @@ import org.apache.commons.lang3.StringUtils;
 /*
  * 支付宝 普通商户参数定义
  *
- * @author terrfly
- * @site https://www.jeequan.com
- * @date 2021/6/8 16:33
  */
 @Data
 public class AlipayNormalMchParams extends NormalMchParams {

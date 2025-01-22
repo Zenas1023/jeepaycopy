@@ -25,9 +25,6 @@ import jakarta.validation.constraints.NotNull;
 /*
 * 申请转账 请求参数
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/8/10 11:31
 */
 @Data
 public class TransferOrderRQ extends AbstractMchAppRQ {

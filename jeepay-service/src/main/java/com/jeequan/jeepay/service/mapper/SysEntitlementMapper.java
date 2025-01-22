@@ -24,8 +24,6 @@ import org.apache.ibatis.annotations.Param;
  * 系统权限表 Mapper 接口
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2020-06-13
  */
 public interface SysEntitlementMapper extends BaseMapper<SysEntitlement> {
 

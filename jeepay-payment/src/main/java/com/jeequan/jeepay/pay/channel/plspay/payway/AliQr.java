@@ -34,10 +34,6 @@ import org.springframework.stereotype.Service;
 
 /*
  * 计全付 支付宝 二维码支付
- *
- * @author yr
- * @site https://www.jeequan.com
- * @date 2022/8/15 09:46
  */
 @Service("plspayPaymentByAliQrService") //Service Name需保持全局唯一性
 public class AliQr extends PlspayPaymentService {

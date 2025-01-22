@@ -24,9 +24,6 @@ import org.springframework.http.ResponseEntity;
 /*
 * 响应异常， 一般用于支付接口回调函数
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 16:31
 */
 @Getter
 public class ResponseException extends RuntimeException{

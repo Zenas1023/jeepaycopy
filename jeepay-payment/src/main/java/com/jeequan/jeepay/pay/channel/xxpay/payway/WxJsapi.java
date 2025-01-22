@@ -37,10 +37,6 @@ import java.util.TreeMap;
 
 /*
  * 小新支付 微信jsapi支付
- *
- * @author jmdhappy
- * @site https://www.jeequan.com
- * @date 2021/9/25 16:20
  */
 @Service("xxpayPaymentByWxJsapiService") //Service Name需保持全局唯一性
 public class WxJsapi extends XxpayPaymentService {

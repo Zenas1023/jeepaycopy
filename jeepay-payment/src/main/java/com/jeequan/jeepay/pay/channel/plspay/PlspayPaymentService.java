@@ -11,10 +11,6 @@ import org.springframework.stereotype.Service;
 
 /**
  * 计全支付plus
- *
- * @author yurong
- * @site https://www.jeequan.com
- * @date 2022/8/11 15:37
  */
 @Service
 public class PlspayPaymentService extends AbstractPaymentService {

@@ -10,8 +10,6 @@ import org.springframework.stereotype.Service;
  * 分账账号组 服务实现类
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2021-08-23
  */
 @Service
 public class MchDivisionReceiverGroupService extends ServiceImpl<MchDivisionReceiverGroupMapper, MchDivisionReceiverGroup> {

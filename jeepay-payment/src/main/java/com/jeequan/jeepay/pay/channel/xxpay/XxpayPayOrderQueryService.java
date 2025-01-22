@@ -35,10 +35,6 @@ import java.util.TreeMap;
 
 /*
 * 小新支付 查单接口实现类
-*
-* @author jmdhappy
-* @site https://www.jeequan.com
-* @date 2021/9/21 01:05
 */
 @Service
 @Slf4j

@@ -40,10 +40,6 @@ import jakarta.servlet.http.HttpServletRequest;
 
 /**
 * 转账异步通知入口Controller
-*
-* @author zx
-* @site https://www.jeequan.com
-* @date 2022/12/30 10:26
 */
 @Slf4j
 @Controller

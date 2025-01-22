@@ -26,10 +26,6 @@ import jakarta.servlet.http.HttpServletRequest;
 
 /*
 * 渠道侧的退款订单通知解析实现 【分为同步跳转（doReturn）和异步回调(doNotify) 】
-*
-* @author jmdhappy
-* @site https://www.jeequan.com
-* @date 2021/9/25 23:14
 */
 public interface IChannelRefundNoticeService {
 

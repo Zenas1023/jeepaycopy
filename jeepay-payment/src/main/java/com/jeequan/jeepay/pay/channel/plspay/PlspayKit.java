@@ -19,10 +19,6 @@ import org.apache.commons.lang3.StringUtils;
 
 /*
  * 工具类
- *
- * @author xiaoyu
- * @site https://www.jeequan.com
- * @date 2022/8/23 16:29
  */
 @Slf4j
 public class PlspayKit {

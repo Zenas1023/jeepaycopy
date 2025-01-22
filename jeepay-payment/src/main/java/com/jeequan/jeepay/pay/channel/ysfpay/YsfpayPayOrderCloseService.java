@@ -29,10 +29,6 @@ import org.springframework.stereotype.Service;
 
 /**
  * 云闪付 关闭订单接口实现类
- *
- * @author pangxiaoyu
- * @site https://www.jeequan.com
- * @date 2021-06-07 07:15
  */
 @Service
 @Slf4j

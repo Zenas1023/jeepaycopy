@@ -33,8 +33,6 @@ import java.util.Date;
  * 商户通知记录表
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2021-04-27
  */
 @Schema(description = "商户通知记录表")
 @Data

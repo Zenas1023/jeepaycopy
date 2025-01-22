@@ -34,10 +34,6 @@ import org.springframework.stereotype.Service;
 
 /*
  * 计全付 微信 app支付
- *
- * @author yr
- * @site https://www.jeequan.com
- * @date 2022/8/17 15:50
  */
 @Service("plspayPaymentByWxAppService") //Service Name需保持全局唯一性
 public class WxApp extends PlspayPaymentService {

@@ -54,9 +54,6 @@ import java.util.Map;
 /**
  * 支付订单类
  *
- * @author pangxiaoyu
- * @site https://www.jeequan.com
- * @date 2021-06-07 07:15
  */
 @Tag(name = "订单管理（支付类）")
 @RestController
@@ -69,8 +66,6 @@ public class PayOrderController extends CommonCtrl {
     @Autowired private MchAppService mchAppService;
 
     /**
-     * @author: pangxiaoyu
-     * @date: 2021/6/7 16:15
      * @describe: 订单信息列表
      */
     @Operation(summary = "支付订单信息列表")
@@ -116,8 +111,6 @@ public class PayOrderController extends CommonCtrl {
     }
 
     /**
-     * @author: pangxiaoyu
-     * @date: 2021/6/7 16:15
      * @describe: 支付订单信息
      */
     @Operation(summary = "支付订单信息详情")
@@ -138,9 +131,6 @@ public class PayOrderController extends CommonCtrl {
 
     /**
      * 发起订单退款
-     * @author terrfly
-     * @site https://www.jeequan.com
-     * @date 2021/6/17 16:38
      */
     @Operation(summary = "发起订单退款")
     @Parameters({

@@ -20,9 +20,6 @@ import lombok.Data;
 /*
  * 云闪付 通用配置信息
  *
- * @author pangxiaoyu
- * @site https://www.jeequan.com
- * @date 2021/6/8 18:02
  */
 @Data
 public class YsfpayConfig {

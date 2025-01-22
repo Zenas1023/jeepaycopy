@@ -21,9 +21,6 @@ import com.jeequan.jeepay.pay.rqrs.AbstractRS;
 /*
 * api响应结果构造器
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 17:45
 */
 public class ApiResBuilder {
 

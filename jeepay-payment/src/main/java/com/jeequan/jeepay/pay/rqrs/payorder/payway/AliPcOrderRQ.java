@@ -22,10 +22,6 @@ import lombok.Data;
 
 /*
  * 支付方式： ALI_PC
- *
- * @author terrfly
- * @site https://www.jeequan.com
- * @date 2021/6/8 17:34
  */
 @Data
 public class AliPcOrderRQ extends CommonPayDataRQ {

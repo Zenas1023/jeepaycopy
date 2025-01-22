@@ -26,10 +26,6 @@ import java.util.List;
 
 /**
 * 分账接口
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/8/22 08:59
 */
 public interface IDivisionService {
 

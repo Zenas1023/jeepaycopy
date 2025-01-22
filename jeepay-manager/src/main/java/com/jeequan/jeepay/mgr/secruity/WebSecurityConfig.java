@@ -43,10 +43,6 @@ import static org.springframework.security.config.Customizer.withDefaults;
 
 /*
 * Spring Security 配置项
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 17:11
 */
 @Configuration
 @EnableWebSecurity

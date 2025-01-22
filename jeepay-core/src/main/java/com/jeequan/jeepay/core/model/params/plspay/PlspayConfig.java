@@ -20,9 +20,6 @@ import lombok.Data;
 /*
  * 计全支付plus， 通用配置信息
  *
- * @author yurong
- * @site https://www.jeequan.com
- * @date 2022/8/11 14:32
  */
 @Data
 public class PlspayConfig {

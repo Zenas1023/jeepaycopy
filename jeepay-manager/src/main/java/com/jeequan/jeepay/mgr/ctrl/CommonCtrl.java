@@ -31,9 +31,6 @@ import java.util.List;
 /*
 * 定义通用CommonCtrl
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 17:09
 */
 public abstract class CommonCtrl extends AbstractCtrl {
 

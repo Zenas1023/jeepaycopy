@@ -26,10 +26,6 @@ import java.io.IOException;
 
 /*
 * 通用处理
-*
-* @author jmdhappy
-* @site https://www.jeequan.com
-* @date 2022/01/25 23:38
 */
 @Slf4j
 @Controller

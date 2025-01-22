@@ -36,10 +36,6 @@ import org.springframework.stereotype.Service;
 
 /*
  * 计全付 微信 bar
- *
- * @author yr
- * @site https://www.jeequan.com
- * @date 2022/8/16 18:37
  */
 @Service("plspayPaymentByWxBarService") //Service Name需保持全局唯一性
 public class WxBar extends PlspayPaymentService {

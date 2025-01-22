@@ -47,11 +47,6 @@ import java.util.List;
 
 /**
  * 角色权限管理类
- *
- * @author terrfly
- * @modify zhuxiao
- * @site https://www.jeequan.com
- * @date 2021-04-27 15:50
  */
 @Tag(name = "系统管理（用户-角色-权限关联信息）")
 @RestController

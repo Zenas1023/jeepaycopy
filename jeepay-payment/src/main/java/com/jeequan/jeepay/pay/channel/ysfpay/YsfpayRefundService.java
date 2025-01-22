@@ -30,10 +30,6 @@ import org.springframework.stereotype.Service;
 
 /*
  * 退款接口： 云闪付官方
- *
- * @author xiaoyu
- * @site https://www.jeequan.com
- * @date 2021/6/17 16:38
  */
 @Slf4j
 @Service

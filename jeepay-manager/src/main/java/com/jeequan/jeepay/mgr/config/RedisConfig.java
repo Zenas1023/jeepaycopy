@@ -26,9 +26,6 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 /*
 * Redis配置类
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 17:05
 */
 @Configuration
 public class RedisConfig {

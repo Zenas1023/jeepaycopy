@@ -23,9 +23,7 @@ import jakarta.servlet.http.HttpServletRequest;
 /**
  * none.
  *
- * @author 陈泉
  * @package com.jeequan.jeepay.pay.channel.pppay
- * @create 2021/11/16 20:39
  */
 @Service
 @Slf4j

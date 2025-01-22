@@ -32,8 +32,6 @@ import java.util.Date;
  * 支付方式表
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2021-04-27
  */
 @Schema(description = "支付方式表")
 @Data

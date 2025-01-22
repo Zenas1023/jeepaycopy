@@ -35,10 +35,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 /*
  * 关闭订单 controller
- *
- * @author xiaoyu
- * @site https://www.jeequan.com
- * @date 2022/1/25 9:19
  */
 @Slf4j
 @RestController
@@ -48,8 +44,6 @@ public class CloseOrderController extends ApiController {
     @Autowired private ConfigContextQueryService configContextQueryService;
 
     /**
-     * @author: xiaoyu
-     * @date: 2022/1/25 9:19
      * @describe: 关闭订单
      */
     @RequestMapping("/api/pay/close")

@@ -34,10 +34,6 @@ import org.springframework.stereotype.Service;
 
 /*
  * 计全付 微信 native支付
- *
- * @author yr
- * @site https://www.jeequan.com
- * @date 2022/8/11 15:37
  */
 @Service("plspayPaymentByWxNativeService") //Service Name需保持全局唯一性
 public class WxNative extends PlspayPaymentService {

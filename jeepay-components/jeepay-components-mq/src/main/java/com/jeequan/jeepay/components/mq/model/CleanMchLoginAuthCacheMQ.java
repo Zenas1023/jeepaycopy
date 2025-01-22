@@ -29,9 +29,6 @@ import java.util.List;
 * 定义MQ消息格式
 * 业务场景： [ 清除商户登录信息 ]
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/7/22 15:25
 */
 @Data
 @NoArgsConstructor

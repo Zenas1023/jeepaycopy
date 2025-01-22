@@ -31,11 +31,6 @@ import java.util.TreeMap;
 
 /**
  * 银联接口签名工具类
- *
- * @author terrfly
- * @modify pangxiaoyu
- * @site https://www.jeequan.com
- * @date 2021-06-07 07:15
  */
 public class YsfSignUtils {
 

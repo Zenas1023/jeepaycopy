@@ -25,10 +25,6 @@ import jakarta.servlet.http.HttpServletRequest;
 
 /*
 * 转账订单通知解析实现 异步回调
-*
-* @author zx
-* @site https://www.jeequan.com
-* @date 2022/12/30 10:14
 */
 public interface ITransferNoticeService {
 

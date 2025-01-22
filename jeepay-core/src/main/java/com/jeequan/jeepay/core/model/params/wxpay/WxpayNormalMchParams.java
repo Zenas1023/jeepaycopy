@@ -25,9 +25,6 @@ import org.apache.commons.lang3.StringUtils;
 /*
  * 微信官方支付 配置参数
  *
- * @author zhuxiao
- * @site https://www.jeequan.com
- * @date 2021/6/8 18:02
  */
 @Data
 public class WxpayNormalMchParams extends NormalMchParams {

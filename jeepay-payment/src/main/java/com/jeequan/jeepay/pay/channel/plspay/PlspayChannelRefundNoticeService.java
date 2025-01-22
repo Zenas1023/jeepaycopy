@@ -35,10 +35,6 @@ import jakarta.servlet.http.HttpServletRequest;
 
 /*
  * 计全支付plus 退款回调接口实现类
- *
- * @author yr
- * @site https://www.jeequan.com
- * @date 2022/7/20 10:31
  */
 @Service
 @Slf4j

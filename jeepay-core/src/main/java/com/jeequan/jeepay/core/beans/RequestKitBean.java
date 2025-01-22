@@ -33,9 +33,6 @@ import java.util.stream.Collectors;
 /*
 * 基于spring的 req 工具类
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/7 12:16
 */
 @Slf4j
 @Component

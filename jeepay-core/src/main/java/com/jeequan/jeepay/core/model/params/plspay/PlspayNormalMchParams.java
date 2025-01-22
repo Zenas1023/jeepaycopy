@@ -25,9 +25,6 @@ import org.apache.commons.lang3.StringUtils;
 /*
  * 计全支付plus， 普通商户参数定义
  *
- * @author yurong
- * @site https://www.jeequan.com
- * @date 2022/8/11 14:32
  */
 @Data
 public class PlspayNormalMchParams extends NormalMchParams {

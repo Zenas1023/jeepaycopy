@@ -23,8 +23,6 @@ import com.jeequan.jeepay.core.entity.SysRole;
  * 系统角色表 Mapper 接口
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2020-06-13
  */
 public interface SysRoleMapper extends BaseMapper<SysRole> {
 

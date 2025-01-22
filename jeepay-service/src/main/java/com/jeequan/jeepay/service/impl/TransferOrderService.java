@@ -33,8 +33,6 @@ import java.util.Date;
  * 转账订单表 服务实现类
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2021-08-11
  */
 @Service
 public class TransferOrderService extends ServiceImpl<TransferOrderMapper, TransferOrder> {

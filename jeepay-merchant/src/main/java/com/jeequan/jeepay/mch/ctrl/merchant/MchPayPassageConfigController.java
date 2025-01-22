@@ -48,10 +48,6 @@ import java.util.List;
 
 /**
  * 商户支付通道配置类
- *
- * @author zhuxiao
- * @site https://www.jeequan.com
- * @date 2021-04-27 15:50
  */
 @Tag(name = "商户支付通道管理")
 @RestController
@@ -63,9 +59,7 @@ public class MchPayPassageConfigController extends CommonCtrl {
     @Autowired private MchInfoService mchInfoService;
 
     /**
-     * @Author: ZhuXiao
      * @Description: 查询支付方式列表，并添加是否配置支付通道状态
-     * @Date: 10:58 2021/5/13
     */
     @Operation(summary = "查询支付方式列表")
     @Parameters({
@@ -123,10 +117,7 @@ public class MchPayPassageConfigController extends CommonCtrl {
     }
 
     /**
-     * @Author: ZhuXiao
      * @Description: 根据appId、支付方式查询可用的支付接口列表
-     * @Date: 11:05 2021/5/13
-     * @return
     */
     @Operation(summary = "根据[应用ID]、[支付方式代码]查询可用的支付接口列表")
     @Parameters({
@@ -150,11 +141,6 @@ public class MchPayPassageConfigController extends CommonCtrl {
         return ApiRes.ok(list);
     }
 
-    /**
-     * @Author: ZhuXiao
-     * @Description:
-     * @Date: 11:05 2021/5/13
-    */
     @Operation(summary = "商户支付通道详情")
     @Parameters({
             @Parameter(name = "iToken", description = "用户身份凭证", required = true, in = ParameterIn.HEADER),
@@ -174,9 +160,7 @@ public class MchPayPassageConfigController extends CommonCtrl {
     }
 
     /**
-     * @Author: ZhuXiao
      * @Description: 应用支付通道配置
-     * @Date: 11:05 2021/5/13
     */
     @Operation(summary = "更新商户支付通道")
     @Parameters({

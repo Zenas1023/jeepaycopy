@@ -54,10 +54,6 @@ import java.math.BigDecimal;
 
 /**
  * 商户分账接收者账号关系维护
- *
- * @author terrfly
- * @site https://www.jeequan.com
- * @date 2021-08-23 11:50
  */
 @Tag(name = "分账管理（收款账号）")
 @RestController

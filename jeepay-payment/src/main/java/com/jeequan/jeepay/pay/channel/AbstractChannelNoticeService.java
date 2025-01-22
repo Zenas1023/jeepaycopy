@@ -30,10 +30,6 @@ import java.io.File;
 
 /*
 * 实现回调接口抽象类
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 17:18
 */
 public abstract class AbstractChannelNoticeService implements IChannelNoticeService {
 

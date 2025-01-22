@@ -18,8 +18,6 @@ import java.util.Date;
  * 商户分账接收者账号绑定关系表
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2021-08-19
  */
 @Schema(description = "商户分账接收者账号绑定关系表")
 @Data

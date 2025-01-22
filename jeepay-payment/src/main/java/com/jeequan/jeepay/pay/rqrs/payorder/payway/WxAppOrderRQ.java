@@ -23,10 +23,6 @@ import jakarta.validation.constraints.NotBlank;
 
 /*
  *  支付方式： WX_APP
- *
- * @author xiaoyu
- * @site https://www.jeequan.com
- * @date 2022/12/20 8:12
  */
 @Data
 public class WxAppOrderRQ extends UnifiedOrderRQ {

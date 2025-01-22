@@ -43,9 +43,6 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 服务商管理类
  *
- * @author pangxiaoyu
- * @site https://www.jeequan.com
- * @date 2021-06-07 07:15
  */
 @Tag(name = "服务商管理（基本信息）")
 @RestController
@@ -56,8 +53,6 @@ public class IsvInfoController extends CommonCtrl {
     @Autowired private IMQSender mqSender;
 
     /**
-     * @author: pangxiaoyu
-     * @date: 2021/6/7 16:12
      * @describe: 查询服务商信息列表
      */
     @Operation(summary = "服务商列表", description = "")
@@ -90,8 +85,6 @@ public class IsvInfoController extends CommonCtrl {
     }
 
     /**
-     * @author: pangxiaoyu
-     * @date: 2021/6/7 16:13
      * @describe: 新增服务商信息
      */
     @Operation(summary = "新增服务商", description = "")
@@ -122,8 +115,6 @@ public class IsvInfoController extends CommonCtrl {
     }
 
     /**
-     * @author: pangxiaoyu
-     * @date: 2021/6/7 16:13
      * @describe: 删除服务商信息
      */
     @Operation(summary = "删除服务商", description = "")
@@ -143,8 +134,6 @@ public class IsvInfoController extends CommonCtrl {
     }
 
     /**
-     * @author: pangxiaoyu
-     * @date: 2021/6/7 16:13
      * @describe: 更新服务商信息
      */
     @Operation(summary = "更新服务商信息", description = "")
@@ -177,8 +166,6 @@ public class IsvInfoController extends CommonCtrl {
     }
 
     /**
-     * @author: pangxiaoyu
-     * @date: 2021/6/7 16:13
      * @describe: 查看服务商信息
      */
     @Operation(summary = "查看服务商信息", description = "")

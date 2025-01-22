@@ -27,8 +27,6 @@ import java.util.Map;
  * 商户支付通道表 Mapper 接口
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2021-04-27
  */
 public interface MchPayPassageMapper extends BaseMapper<MchPayPassage> {
 

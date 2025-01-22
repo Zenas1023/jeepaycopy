@@ -32,9 +32,6 @@ import java.util.Date;
 /*
 * 补单定时任务(退款单)
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/17 14:22
 */
 @Slf4j
 @Component

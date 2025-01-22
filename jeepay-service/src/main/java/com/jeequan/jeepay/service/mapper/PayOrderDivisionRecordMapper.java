@@ -11,8 +11,6 @@ import org.apache.ibatis.annotations.Param;
  * 分账记录表 Mapper 接口
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2021-08-19
  */
 public interface PayOrderDivisionRecordMapper extends BaseMapper<PayOrderDivisionRecord> {
 

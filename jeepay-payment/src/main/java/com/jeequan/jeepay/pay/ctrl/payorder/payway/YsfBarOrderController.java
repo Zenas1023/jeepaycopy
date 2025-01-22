@@ -25,10 +25,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 /*
  * 云闪付 条码支付 controller
- *
- * @author pangxiaoyu
- * @site https://www.jeequan.com
- * @date 2021/6/8 17:25
  */
 @Slf4j
 @RestController

@@ -27,9 +27,6 @@ import java.io.Serializable;
 /*
 * 用户身份认证失败处理类
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 17:11
 */
 @Component
 public class JeeAuthenticationEntryPoint implements AuthenticationEntryPoint, Serializable {

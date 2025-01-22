@@ -36,10 +36,6 @@ import org.springframework.stereotype.Service;
 
 /**
  * 支付宝 订单码支付
- *
- * @author zhangheming
- * @site https://www.jeequan.com
- * @date 2024/6/12 17:20
  */
 @Service("alipayPaymentByAliOcService")
 public class AliOc extends AlipayPaymentService {

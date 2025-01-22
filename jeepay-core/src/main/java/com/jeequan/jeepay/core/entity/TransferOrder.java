@@ -31,8 +31,6 @@ import java.util.Date;
  * 转账订单表
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2021-08-11
  */
 @Schema(description = "转账订单表")
 @Data

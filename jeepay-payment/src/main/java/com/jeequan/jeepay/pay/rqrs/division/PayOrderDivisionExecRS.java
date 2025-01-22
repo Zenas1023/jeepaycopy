@@ -20,10 +20,6 @@ import lombok.Data;
 
 /**
 * 发起订单分账 响应参数
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/8/26 17:20
 */
 @Data
 public class PayOrderDivisionExecRS extends AbstractRS {

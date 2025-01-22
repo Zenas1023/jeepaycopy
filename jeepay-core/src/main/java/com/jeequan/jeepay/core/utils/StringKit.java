@@ -26,9 +26,6 @@ import java.util.UUID;
 /*
 * String 工具类
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 16:58
 */
 public class StringKit {
 
@@ -179,8 +176,6 @@ public class StringKit {
 	 * 功能描述: 数据自动脱敏
 	 * @param str
 	 * @Return: java.lang.String
-	 * @Author: terrfly
-	 * @Date: 2021/7/20 17:07
 	 */
 	public static String autoDesensitization(String str){
 

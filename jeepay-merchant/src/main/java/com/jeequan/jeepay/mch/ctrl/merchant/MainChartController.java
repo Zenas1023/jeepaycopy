@@ -42,10 +42,6 @@ import java.util.Map;
 
 /**
  * 主页数据类
- *
- * @author pangxiaoyu
- * @site https://www.jeequan.com
- * @date 2021-04-27 15:50
  */
 @Tag(name = "主页统计")
 @Slf4j

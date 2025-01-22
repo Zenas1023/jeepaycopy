@@ -18,9 +18,6 @@ package com.jeequan.jeepay.components.mq.vender;
 /**
 * MQ 消息接收器 接口定义
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/7/21 16:09
 */
 public interface IMQMsgReceiver {
 

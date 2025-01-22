@@ -29,9 +29,6 @@ import java.util.Map;
         "created": "1568250147846",
         "cacheKey": "KEYKEYKEYKEY",
     }
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 18:01
 */
 @Data
 public class JWTPayload {

@@ -36,9 +36,6 @@ import java.util.Map;
  *  3. 注册延迟消息交换机的bean: delayedExchange
  *  4. 动态配置RabbitMQ所需的bean。
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/7/23 16:27
 */
 @Configuration
 @ConditionalOnProperty(name = MQVenderCS.YML_VENDER_KEY, havingValue = MQVenderCS.RABBIT_MQ)

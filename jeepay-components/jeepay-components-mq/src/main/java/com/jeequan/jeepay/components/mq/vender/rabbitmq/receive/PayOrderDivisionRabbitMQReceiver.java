@@ -28,9 +28,6 @@ import org.springframework.stereotype.Component;
  * rabbitMQ消息接收器：仅在vender=rabbitMQ时 && 项目实现IMQReceiver接口时 进行实例化
  * 业务：  支付订单分账通知
  *
- * @author terrfly
- * @site https://www.jeequan.com
- * @date 2021/8/22 16:43
  */
 @Component
 @ConditionalOnProperty(name = MQVenderCS.YML_VENDER_KEY, havingValue = MQVenderCS.RABBIT_MQ)

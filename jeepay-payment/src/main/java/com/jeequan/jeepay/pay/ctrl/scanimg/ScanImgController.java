@@ -24,10 +24,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 /*
 * jeepay 扫描图片生成器
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 17:28
 */
 @RestController
 @RequestMapping("/api/scan")

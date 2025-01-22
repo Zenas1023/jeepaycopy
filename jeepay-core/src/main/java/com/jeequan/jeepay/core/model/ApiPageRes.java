@@ -25,9 +25,6 @@ import java.util.List;
 /*
 * 接口返回对象
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 16:35
 */
 @Data
 @Schema(description = "分页res")

@@ -26,11 +26,6 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 
 /**
  * 自定义springMVC返回数据格式
- *
- * @author terrfly
- * @modify zhuxiao
- * @site https://www.jeequan.com
- * @date 2021-04-27 15:50
  */
 @ControllerAdvice
 public class ApiResBodyAdvice implements ResponseBodyAdvice {

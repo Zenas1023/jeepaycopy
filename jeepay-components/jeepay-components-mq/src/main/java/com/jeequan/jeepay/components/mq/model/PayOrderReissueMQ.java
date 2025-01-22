@@ -27,9 +27,6 @@ import lombok.NoArgsConstructor;
 * 定义MQ消息格式
 * 业务场景： [ 支付订单补单（一般用于没有回调的接口，比如微信的条码支付） ]
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/7/22 15:25
 */
 @Data
 @NoArgsConstructor

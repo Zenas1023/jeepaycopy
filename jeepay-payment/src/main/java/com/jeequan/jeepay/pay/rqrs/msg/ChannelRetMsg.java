@@ -23,10 +23,6 @@ import java.io.Serializable;
 
 /*
 * 上游渠道侧响应信息包装类
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 17:31
 */
 @Slf4j
 @Data

@@ -34,10 +34,6 @@ import org.springframework.stereotype.Service;
 
 /*
  * 计全付 支付宝 APP支付
- *
- * @author yr
- * @site https://www.jeequan.com
- * @date 2022/8/6 16:20
  */
 @Service("plspayPaymentByAliAppService") //Service Name需保持全局唯一性
 public class AliApp extends PlspayPaymentService {

@@ -39,9 +39,6 @@ import org.springframework.web.bind.annotation.*;
 /**
  * 商户应用管理类
  *
- * @author zhuxiao
- * @site https://www.jeequan.com
- * @date 2021-06-16 09:15
  */
 @Tag(name = "商户应用管理")
 @RestController
@@ -53,9 +50,7 @@ public class MchAppController extends CommonCtrl {
     @Autowired private IMQSender mqSender;
 
     /**
-     * @Author: ZhuXiao
      * @Description: 应用列表
-     * @Date: 9:59 2021/6/16
     */
     @Operation(summary = "查询应用列表", description = "")
     @Parameters({
@@ -77,9 +72,7 @@ public class MchAppController extends CommonCtrl {
     }
 
     /**
-     * @Author: ZhuXiao
      * @Description: 新建应用
-     * @Date: 10:05 2021/6/16
     */
     @Operation(summary = "新建应用", description = "")
     @Parameters({
@@ -109,9 +102,7 @@ public class MchAppController extends CommonCtrl {
     }
 
     /**
-     * @Author: ZhuXiao
      * @Description: 应用详情
-     * @Date: 10:13 2021/6/16
      */
     @Operation(summary = "应用详情", description = "")
     @Parameters({
@@ -130,9 +121,7 @@ public class MchAppController extends CommonCtrl {
     }
 
     /**
-     * @Author: ZhuXiao
      * @Description: 更新应用信息
-     * @Date: 10:11 2021/6/16
     */
     @Operation(summary = "更新应用信息", description = "")
     @Parameters({
@@ -160,9 +149,7 @@ public class MchAppController extends CommonCtrl {
     }
 
     /**
-     * @Author: ZhuXiao
      * @Description: 删除应用
-     * @Date: 10:14 2021/6/16
      */
     @Operation(summary = "删除应用", description = "")
     @Parameters({

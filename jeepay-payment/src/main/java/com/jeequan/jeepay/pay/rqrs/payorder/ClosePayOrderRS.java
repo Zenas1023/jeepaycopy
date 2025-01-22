@@ -23,9 +23,6 @@ import lombok.Data;
 /*
  * 关闭订单 响应参数
  *
- * @author xiaoyu
- * @site https://www.jeequan.com
- * @date 2022/1/25 9:17
  */
 @Data
 public class ClosePayOrderRS extends AbstractRS {

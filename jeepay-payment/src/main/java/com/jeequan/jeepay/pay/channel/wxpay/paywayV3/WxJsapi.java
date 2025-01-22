@@ -47,10 +47,6 @@ import java.io.IOException;
 
 /*
  * 微信 jsapi支付
- *
- * @author zhuxiao
- * @site https://www.jeequan.com
- * @date 2021/6/8 18:08
  */
 @Service("wxpayPaymentByJsapiV3Service") //Service Name需保持全局唯一性
 public class WxJsapi extends WxpayPaymentService {

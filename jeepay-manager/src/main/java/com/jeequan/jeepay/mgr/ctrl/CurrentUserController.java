@@ -49,9 +49,6 @@ import java.util.List;
 /*
 * 当前登录者的信息相关接口
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 17:10
 */
 @Tag(name = "登录者信息")
 @RestController

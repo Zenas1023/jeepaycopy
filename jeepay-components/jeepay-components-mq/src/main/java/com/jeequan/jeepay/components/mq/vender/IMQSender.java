@@ -20,9 +20,6 @@ import com.jeequan.jeepay.components.mq.model.AbstractMQ;
 /**
 * MQ 消息发送器 接口定义
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/7/21 16:09
 */
 public interface IMQSender {
 

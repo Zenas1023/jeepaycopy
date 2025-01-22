@@ -25,8 +25,6 @@ import org.springframework.stereotype.Service;
  * 系统操作日志表 服务实现类
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2021-04-27
  */
 @Service
 public class SysLogService extends ServiceImpl<SysLogMapper, SysLog> {

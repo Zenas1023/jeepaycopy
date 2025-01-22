@@ -20,9 +20,6 @@ import lombok.Data;
 /*
 * 支付宝， 通用配置信息
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 16:32
 */
 @Data
 public class AlipayConfig{

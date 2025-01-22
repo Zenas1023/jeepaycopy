@@ -34,9 +34,6 @@ import java.util.regex.Pattern;
 /*
 * jeepay工具类
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 16:50
 */
 @Slf4j
 public class JeepayKit {

@@ -41,10 +41,6 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /*
 * 商户/服务商 配置信息上下文服务
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 17:41
 */
 @Slf4j
 @Service

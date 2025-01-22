@@ -38,10 +38,6 @@ import org.springframework.stereotype.Service;
 
 /*
 * 配置信息查询服务 （兼容 缓存 和 直接查询方式）
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/11/18 14:41
 */
 @Slf4j
 @Service

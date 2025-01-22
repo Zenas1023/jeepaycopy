@@ -26,8 +26,6 @@ import org.springframework.stereotype.Service;
  * 商户通知表 服务实现类
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2021-04-27
  */
 @Service
 public class MchNotifyRecordService extends ServiceImpl<MchNotifyRecordMapper, MchNotifyRecord> {

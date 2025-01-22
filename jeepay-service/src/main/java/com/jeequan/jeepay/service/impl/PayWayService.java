@@ -25,8 +25,6 @@ import org.springframework.stereotype.Service;
  * 支付方式表 服务实现类
  * </p>
  *
- * @author [mybatis plus generator]
- * @since 2021-04-27
  */
 @Service
 public class PayWayService extends ServiceImpl<PayWayMapper, PayWay> {

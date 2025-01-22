@@ -34,10 +34,6 @@ import java.util.concurrent.CopyOnWriteArraySet;
 /**
  * WebSocket服务类
  * /ws/channelUserId/{appId}/{客戶端自定義ID}
- *
- * @author terrfly
- * @site https://www.jeequan.com
- * @date 2021/8/13 18:57
  */
 @ServerEndpoint("/api/anon/ws/channelUserId/{appId}/{cid}")
 @Component

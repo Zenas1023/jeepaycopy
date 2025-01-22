@@ -26,9 +26,6 @@ import java.util.concurrent.ThreadPoolExecutor;
 /*
 * MQ 线程池配置
 *
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2021/6/8 17:33
 */
 @Configuration
 @EnableAsync

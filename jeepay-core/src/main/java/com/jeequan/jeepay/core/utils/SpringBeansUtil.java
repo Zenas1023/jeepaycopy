@@ -22,8 +22,6 @@ import org.springframework.stereotype.Component;
 
 /**
  * @description: Spring 框架下, 获取Beans静态函数方法。
- * @Author terrfly
- * @Date 2019/12/31 13:57
  */
 @Component
 public class SpringBeansUtil implements ApplicationContextAware {

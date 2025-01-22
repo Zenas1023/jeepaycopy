@@ -35,10 +35,6 @@ import java.util.Arrays;
 
 /*
 * spring-boot 主启动程序
-*
-* @author terrfly
-* @site https://www.jeequan.com
-* @date 2019/11/7 15:19
 */
 @SpringBootApplication
 @EnableScheduling
@@ -90,8 +86,6 @@ public class JeepayMgrApplication {
      * 功能描述:  API访问地址： http://localhost:9217/doc.html
      *
      * @Return: springfox.documentation.spring.web.plugins.Docket
-     * @Author: terrfly
-     * @Date: 2023/6/13 15:04
      */
     /*@Bean(value = "knife4jDockerBean")
     public Docket knife4jDockerBean() {

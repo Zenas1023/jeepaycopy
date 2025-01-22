@@ -38,10 +38,6 @@ import org.springframework.stereotype.Service;
 
 /**
  * 退款接口： 计全退款plus
- *
- * @author yurong
- * @site https://www.jeequan.com
- * @date 2022/8/16 15:28
  */
 @Service
 public class PlspayRefundService extends AbstractRefundService {
