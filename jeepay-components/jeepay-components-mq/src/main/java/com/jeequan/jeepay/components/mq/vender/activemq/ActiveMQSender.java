@@ -18,6 +18,7 @@ package com.jeequan.jeepay.components.mq.vender.activemq;
 import com.jeequan.jeepay.components.mq.model.AbstractMQ;
 import com.jeequan.jeepay.components.mq.constant.MQVenderCS;
 import com.jeequan.jeepay.components.mq.vender.IMQSender;
+import jakarta.annotation.Resource;
 import org.apache.activemq.ScheduledMessage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
@@ -34,11 +35,8 @@ import jakarta.jms.TextMessage;
 @ConditionalOnProperty(name = MQVenderCS.YML_VENDER_KEY, havingValue = MQVenderCS.ACTIVE_MQ)
 public class ActiveMQSender implements IMQSender {
 
-    @Autowired
-    private ActiveMQConfig activeMQConfig;
-
-    @Autowired
-    private JmsTemplate jmsTemplate;
+    @Resource private ActiveMQConfig activeMQConfig;
+    @Resource private JmsTemplate jmsTemplate;
 
     @Override
     public void send(AbstractMQ mqModel) {
