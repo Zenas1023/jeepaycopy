@@ -43,7 +43,7 @@
 
         <module>jeepay-manager</module>	<!-- 运营平台管理端 -->
         <module>jeepay-merchant</module>	<!-- 商户平台管理端 -->
-
+        <module>jeepay-payment</module>	<!-- 支付统一网关 -->
     </modules>
 
     <properties>
