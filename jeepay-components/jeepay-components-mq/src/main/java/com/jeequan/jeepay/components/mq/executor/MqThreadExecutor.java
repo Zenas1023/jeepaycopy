@@ -24,9 +24,9 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.ThreadPoolExecutor;
 
 /*
-* MQ 线程池配置
-*
-*/
+ * MQ 线程池配置
+ *
+ */
 @Configuration
 @EnableAsync
 public class MqThreadExecutor {
@@ -40,16 +40,22 @@ public class MqThreadExecutor {
      * 缓存队列尽量减少，否则将堵塞在队列中无法执行。  corePoolSize 根据机器的配置进行添加。此处设置的为20
      */
     @Bean
-    public Executor mqQueue4PayOrderMchNotifyExecutor() {
+    public ThreadPoolTaskExecutor mqQueue4PayOrderMchNotifyExecutor() {
         ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
-        executor.setCorePoolSize(20); // 线程池维护线程的最少数量
-        executor.setMaxPoolSize(300);  // 线程池维护线程的最大数量
-        executor.setQueueCapacity(10); // 缓存队列
+        // 线程池维护线程的最少数量
+        executor.setCorePoolSize(20);
+        // 线程池维护线程的最大数量
+        executor.setMaxPoolSize(300);
+        // 缓存队列
+        executor.setQueueCapacity(10);
         executor.setThreadNamePrefix("payOrderMchNotifyExecutor-");
         // rejection-policy：当pool已经达到max size的时候，如何处理新任务
         // CALLER_RUNS：不在新线程中执行任务，而是由调用者所在的线程来执行
-        executor.setRejectedExecutionHandler(new ThreadPoolExecutor.CallerRunsPolicy()); //对拒绝task的处理策略
-        executor.setKeepAliveSeconds(60); // 允许的空闲时间
+
+        // 对拒绝task的处理策略
+        executor.setRejectedExecutionHandler(new ThreadPoolExecutor.CallerRunsPolicy());
+        // 允许的空闲时间
+        executor.setKeepAliveSeconds(60);
         executor.initialize();
         return executor;
     }
